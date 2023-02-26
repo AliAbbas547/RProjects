@@ -29,7 +29,7 @@ function GetUserData() {
 
   return (
     <div className="container my-3">
-      {/* <button
+      <button
         className="hello"
         onClick={(e) =>
           getData(
@@ -39,7 +39,7 @@ function GetUserData() {
       >
         
         Just Click Here
-      </button> */}
+      </button>
       
       <button type="button" class="btn btn-primary" onClick={(e) =>
           getData(
